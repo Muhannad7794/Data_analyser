@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  data-analyser:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/Data_Analyser_Dockerized:cached
+    image: data-analyser:data_analyser_latest
+    container_name: d-analyser-con
