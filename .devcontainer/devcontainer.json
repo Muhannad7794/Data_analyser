@@ -16,7 +16,8 @@
 				"ZainChen.json",
 				"esbenp.prettier-vscode",
 				"ms-python.python",
-				"mechatroner.rainbow-csv"
+				"mechatroner.rainbow-csv",
+				"ms-python.black-formatter"
 			]
 		}
 	}
