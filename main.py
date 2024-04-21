@@ -26,7 +26,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 
 # Create a polynomial regression model
-degree = 3  # You can adjust the degree of the polynomial here
+degree = 1  # You can adjust the degree of the polynomial here
 poly_model = make_pipeline(PolynomialFeatures(degree), LinearRegression())
 
 # Fit the model to the training data
