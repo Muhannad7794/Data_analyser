@@ -17,7 +17,9 @@
 				"esbenp.prettier-vscode",
 				"ms-python.python",
 				"mechatroner.rainbow-csv",
-				"ms-python.black-formatter"
+				"ms-python.black-formatter",
+				"ms-toolsai.jupyter-keymap",
+				"ms-toolsai.jupyter"
 			]
 		}
 	}
